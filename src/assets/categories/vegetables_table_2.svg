@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="540" height="271" viewBox="0 0 540 271">
+    <defs>
+        <rect id="05p1jy9lma" width="540" height="271" x="0" y="0" rx="5"/>
+        <path id="uh26nae9xb" d="M0 0L17 0 17 11 0 11z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-668 -452) translate(668 452)">
+                        <use fill="#F7F2F2" xlink:href="#05p1jy9lma"/>
+                    </g>
+                    <g>
+                        <g stroke="#BBB">
+                            <path stroke-dasharray="6" d="M1 17.5L423 17.5" transform="translate(-668 -452) translate(668 452) translate(21 60) translate(88)"/>
+                            <path d="M-77 78L78 78" transform="translate(-668 -452) translate(668 452) translate(21 60) translate(88) rotate(-90 .5 78)"/>
+                            <path stroke-dasharray="6" d="M1 53.5L423 53.5M1 87.5L423 87.5M1 121.5L423 121.5" transform="translate(-668 -452) translate(668 452) translate(21 60) translate(88)"/>
+                            <path d="M0.5 155.5L428 156" transform="translate(-668 -452) translate(668 452) translate(21 60) translate(88)"/>
+                        </g>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-668 -452) translate(668 452) translate(21 60)">
+                            <tspan x=".133" y="125">Phytophthora</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-668 -452) translate(668 452) translate(21 60)">
+                            <tspan x="23.806" y="56">Fusarium</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-668 -452) translate(668 452) translate(21 60)">
+                            <tspan x="29.756" y="91">Pythium</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-668 -452) translate(668 452) translate(21 60)">
+                            <tspan x="0" y="186">Рівень слідів</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-668 -452) translate(668 452) translate(21 60)">
+                            <tspan x="92" y="186">Низький</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-668 -452) translate(668 452) translate(21 60)">
+                            <tspan x="275" y="186">Середній</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-668 -452) translate(668 452) translate(21 60)">
+                            <tspan x="459" y="186">Високий</tspan>
+                        </text>
+                        <g transform="translate(-668 -452) translate(668 452) translate(21 60) translate(266 167)"/>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-668 -452) translate(668 452) translate(21 60)">
+                            <tspan x="10.539" y="21">Phizoctonia</tspan>
+                        </text>
+                    </g>
+                    <g>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-668 -452) translate(668 452) translate(108 26)">
+                            <tspan x="18" y="11">ВеллВам</tspan>
+                        </text>
+                        <path fill="#819F2C" d="M5.5 2C8.536 2 11 4.464 11 7.5S8.536 13 5.5 13 0 10.536 0 7.5 2.464 2 5.5 2z" transform="translate(-668 -452) translate(668 452) translate(108 26)"/>
+                    </g>
+                    <g>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-668 -452) translate(668 452) translate(206 26)">
+                            <tspan x="18" y="11">Контроль</tspan>
+                        </text>
+                        <path fill="#B0C3D2" d="M5.5 1C8.536 1 11 3.464 11 6.5S8.536 12 5.5 12 0 9.536 0 6.5 2.464 1 5.5 1z" transform="translate(-668 -452) translate(668 452) translate(206 26)"/>
+                    </g>
+                </g>
+                <path fill="#819F2C" d="M118.5 61c3.038 0 5.5 2.462 5.5 5.5V79h-11V66.5c0-3.038 2.462-5.5 5.5-5.5z" transform="translate(-668 -452) translate(668 452) rotate(90 118.5 70)"/>
+                <path fill="#819F2C" d="M105.5 105.5h9c.552 0 1 .448 1 1h-11c0-.552.448-1 1-1z" transform="translate(-668 -452) translate(668 452) rotate(90 110 106)"/>
+                <path fill="#B0C3D2" d="M213-19.5c3.038 0 5.5 2.462 5.5 5.5v201.5h-11V-14c0-3.038 2.462-5.5 5.5-5.5z" transform="translate(-668 -452) translate(668 452) rotate(90 213 84)"/>
+                <path fill="#B0C3D2" d="M105.5 119.5h9c.552 0 1 .448 1 1h-11c0-.552.448-1 1-1z" transform="translate(-668 -452) translate(668 452) rotate(90 110 120)"/>
+                <path fill="#819F2C" d="M105.5 139.5h9c.552 0 1 .448 1 1h-11c0-.552.448-1 1-1z" transform="translate(-668 -452) translate(668 452) rotate(90 110 140)"/>
+                <path fill="#B0C3D2" d="M105.5 153.5h9c.552 0 1 .448 1 1h-11c0-.552.448-1 1-1z" transform="translate(-668 -452) translate(668 452) rotate(90 110 154)"/>
+                <path fill="#819F2C" d="M105.5 174.5h9c.552 0 1 .448 1 1h-11c0-.552.448-1 1-1z" transform="translate(-668 -452) translate(668 452) rotate(90 110 175)"/>
+                <path fill="#B0C3D2" d="M218 80.5c3.038 0 5.5 2.462 5.5 5.5v211.5h-11V86c0-3.038 2.462-5.5 5.5-5.5z" transform="translate(-668 -452) translate(668 452) rotate(90 218 189)"/>
+            </g>
+        </g>
+    </g>
+</svg>

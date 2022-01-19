@@ -1,0 +1,127 @@
+
+  .plate {
+    position: absolute;
+    right: 5%;
+    top: 20px;
+    height: 80px;
+    width: 80px;
+    display: none;
+    z-index: 9999;
+
+    svg {
+        height: 80px;
+        position: absolute;
+        width: 80px;
+        
+        path {
+            stroke: #819f2c;
+        }
+    }
+
+  }
+  .burger {
+
+  }
+ 
+  .line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform-origin: 50%;
+    transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
+  }
+  .x .line {
+    stroke-width: 5.5px;
+  }
+  
+  /* Όγδοο πιάτο */
+  .plate8 .line {
+    transition: stroke-dasharray 400ms 100ms, stroke-dashoffset 400ms 100ms, transform 400ms 100ms;
+  }
+  .plate8 .line1 {
+    stroke-dasharray: 21 201;
+  }
+  .plate8 .line2 {
+    stroke-dasharray: 21 201;
+    transition-delay: 20ms;
+  }
+  .plate8 .line3 {
+    stroke-dasharray: 21 201;
+    transition-delay: 40ms;
+  }
+  .plate8 .line4 {
+    stroke-dasharray: 21 201;
+    transition-delay: 60ms;
+  }
+  .plate8 .line5 {
+    stroke-dasharray: 21 201;
+    transition-delay: 80ms;
+  }
+  .plate8 .line6 {
+    stroke-dasharray: 21 201;
+    transition-delay: 100ms;
+  }
+  .plate8 .x {
+    transition: transform 400ms 50ms;
+  }
+  
+
+  .plate8 {
+      .x {
+        transform: scale(0);
+        transition: transform 400ms;
+      }
+      &.active {
+       
+
+         .line {
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms, transform 400ms;
+        }
+         .line1 {
+            stroke-dasharray: 5 201;
+            stroke-dashoffset: -158px;
+        }
+         .line2 {
+            stroke-dasharray: 5 201;
+            stroke-dashoffset: -158px;
+            transition-delay: 20ms;
+        }
+         .line3 {
+            stroke-dasharray: 5 201;
+            stroke-dashoffset: -158px;
+            transition-delay: 40ms;
+        }
+         .line4 {
+            stroke-dasharray: 5 201;
+            stroke-dashoffset: -158px;
+            transition-delay: 60ms;
+        }
+         .line5 {
+            stroke-dasharray: 5 201;
+            stroke-dashoffset: -158px;
+            transition-delay: 80ms;
+        }
+         .line6 {
+            stroke-dasharray: 5 201;
+            stroke-dashoffset: -158px;
+            transition-delay: 100ms;
+        }
+         .x {
+            transition: transform 400ms 50ms;
+            transform: scale(1);
+        }
+      }
+  }
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .plate {
+        display: block;
+    }
+}

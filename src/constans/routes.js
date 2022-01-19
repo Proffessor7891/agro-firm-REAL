@@ -1,0 +1,15 @@
+export const publicRoutes = {
+    INDEX: '/',
+    ABOUT: '/about',
+    MYCORRHIZA: '/mycorrhiza',
+    GALLERY: '/gallery',
+    CORN: '/corn',
+    CROPS: '/crops',
+    BEANS: '/beans',
+    GARDEN: '/garden',
+    VEGETABLES: '/vegetables',
+    NOTILL: '/no_till',
+    AGRICULTURE: '/agriculture',
+    BLOG: '/blog',
+    POST: '/post',
+};

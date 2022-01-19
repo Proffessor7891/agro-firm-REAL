@@ -1,0 +1,13 @@
+.product {
+   &_cart {
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+   &_procent {
+       span {
+           margin: 0px 1px;
+       }
+   }
+}

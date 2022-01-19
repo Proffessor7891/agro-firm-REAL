@@ -1,0 +1,23 @@
+.form {
+    button {
+        margin-top: 40px;
+    }
+}
+
+.order {
+    &_title {
+        text-align: center;
+        width: 100%;
+    }
+    &_text {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.consultation {
+    &_btn {
+        min-width: 210px;
+    }
+}

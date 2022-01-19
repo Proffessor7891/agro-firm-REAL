@@ -1,0 +1,15 @@
+export { default as Header } from './Header/index';
+export { default as TitleText } from './TitleText/index';
+export { default as CustomBtn } from './CustomBtn/index';
+export { default as Additional_navigate } from './Additional_navigate/index';
+export { default as Custom_option } from './Custom_option/index';
+export { default as CustomModal } from './CustomModal/index';
+export { default as Detail_btn } from './Detail_btn/index';
+export { default as Order_btn } from './Order_btn/index';
+export { default as Post_card } from './Post_card/index';
+export { default as Question_section } from './Question_section/index';
+export { default as Consultation_btn } from './Consultation_btn/index';
+export { default as Footer } from './Footer/index';
+export { default as Start_section } from './Start_section/index';
+export { default as Custom_slider } from './Custom_slider/index';
+export { default as Career_form } from './Career_form/index';

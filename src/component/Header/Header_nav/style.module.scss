@@ -1,0 +1,103 @@
+.header {
+    &_nav {
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+
+        &_link {
+            margin-left: 30px;
+
+            span {
+                transition: all .2s;
+            }
+
+            &:hover {
+                span {
+                    color: #f79e1c;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    .header_nav {
+        &_link {
+            margin-left: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            margin: 10px 0px;
+
+            &:hover {
+                background: #fff;
+
+                span {
+                    color: #f79e1c;
+                }
+            }
+            
+            span {
+                font-size: 26px;
+            }
+        }
+        &__block {
+            transition: all .2s;
+            position: absolute;
+            top: -35px;
+            left: -120%;
+            background: rgba(0, 0, 0, 0.516);
+            width: 100vw;
+            height: calc(100vh + 35px);
+            overflow: hidden;
+            opacity: 0;
+            z-index: -1;
+
+           
+            .header_nav {
+                transition: all .2s;
+                position: absolute;
+                height: calc(100vh - 105px);
+                padding: 20px 0px;
+                top: 140px;
+                width: 0px;
+                border-radius: 4px;
+                opacity: 0;
+                visibility: hidden;
+                background: #f79e1c;
+                z-index: 999;
+                flex-direction: column;
+                right: -120%;
+            }
+
+            &.active {
+                z-index: 999;
+                opacity: 1;
+                left: 0;
+                .header_nav {
+                    right: 0;
+                    width: 400px;
+                    opacity: 1;
+                    visibility: visible;
+                }
+                
+            }
+        }
+
+       
+    }
+}
+
+@media (max-width: 440px) {
+    .header_nav {
+        &__block {
+            &.active {
+                .header_nav {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}

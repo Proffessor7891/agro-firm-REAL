@@ -1,0 +1,29 @@
+    .starway {
+        &__block {
+            position: absolute;
+            right: 20px;
+            bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+        &_logo {
+            margin-left: 10px;
+            
+            svg {
+                width: 70px;
+                position: relative;
+                bottom: -4px;
+
+                path {
+                    transition: all .2s;
+                }
+            }
+            &:hover {
+                path {
+                    fill: #d8b12a;
+                }
+            }
+        }
+       
+    }
+    

@@ -1,0 +1,15 @@
+
+
+.pagination {
+    &__block {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 60px;
+
+        ul {
+            display: flex;
+            justify-content: center;
+        }
+        
+    }
+}

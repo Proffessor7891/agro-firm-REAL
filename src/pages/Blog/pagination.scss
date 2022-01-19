@@ -1,0 +1,17 @@
+
+.square-fill {
+    a {
+        &:hover {
+            color: #f79e1c;
+        }
+    }
+}
+.square-fill .is-active, .square-fill a:first-of-type, .square-fill a:last-of-type {
+    background-color: #f79e1c;
+    color: #575656;
+    font-weight: 700;
+
+    &:hover {
+        color: #fff;
+    }
+}

@@ -1,0 +1,16 @@
+.additional {
+    &_nav {
+        &__block {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            padding: 0px 5%;
+            padding-top: 180px;
+
+            .swiper-container {
+                width: 100%;
+            }
+        }
+    }
+}

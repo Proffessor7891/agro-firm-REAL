@@ -1,0 +1,206 @@
+.section {
+    padding-bottom: 130px;
+    &_text {
+        width: 100%;
+        max-width: 600px;
+
+        &_1 {
+            margin-top: 35px;
+            margin-bottom: 30px;
+            margin-left: 37px;
+        }
+    }
+    &__block {
+        padding-left: calc(10% + 200px);
+    }
+    &_date {
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+    &_paragraph {
+        position: relative;
+        padding-left: 34px;
+        border-left: 1px solid #dddddd;
+        padding-bottom: 80px;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -18px;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: #fff;
+            border: solid 1px #dddddd;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: -8px;
+            width: 16px;
+            height: 16px;
+            background: #819f2c;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        &:last-child {
+           border-left: unset;
+        }
+    }
+}
+
+.main_about_section {
+    overflow: hidden;
+}
+.preferens {
+    background-image: radial-gradient(circle at 50% 50%, #2f2f2f, #232323 75%);
+    padding: 75px 35px 160px 35px;
+    &_content {
+        position: relative;
+        z-index: 2;
+        margin-top: 20px;
+        width: calc(100% - 600px);
+    }
+    &_img {
+        max-width: 570px;
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &_title {
+        margin-bottom: 17px;
+    }
+    &_option {
+        margin-bottom: 25px;
+    }
+    &_shadow {
+        -webkit-text-stroke: 2px rgba(255, 255, 255, 0.584);
+        color: transparent;
+        position: absolute;
+        z-index: 1;
+    }
+    &_profile {
+        position: relative;
+        display: flex;
+
+
+        &:first-child {
+            position: relative;
+            top: -160px;
+
+            .preferens {
+                &_shadow {
+                    left: -85px;
+                    bottom: -120px;
+                }
+                &_img {
+                    margin-right: 30px;
+                }
+                &_content {
+                    padding-top: 125px;
+                    padding-right: calc(10% - 35px);
+                }
+            }
+        }
+        &:nth-child(2) {
+            flex-direction: row-reverse;
+            .preferens {
+                &_shadow {
+                    right: -80px;
+                    bottom: -120px;
+                }
+                &_img {
+                    margin-left: 30px;
+                }
+                &_content {
+                    padding-left: calc(10% - 35px);
+                }
+            }
+        }
+    }
+   
+}
+
+
+@media (max-width: 992px) {
+    .preferens {
+        padding: 40px 5% 60px 5%;
+
+        &_shadow {
+            display: none;
+        }
+        &_profile {
+            display: flex;
+            margin-bottom: 30px;
+            &:first-child {
+                top: 0;
+    
+                .preferens {
+                    &_img {
+                        margin-right: 0px;
+                    }
+                    &_content {
+                        padding-top: 0px;
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .preferens {
+                    &_img {
+                        margin-left: 0px;
+                    }
+                    &_content {
+                    }
+                }
+            }
+
+            flex-direction: column-reverse !important;
+        }
+        &_img {
+            max-width: unset;
+        }
+        &_content {
+            width: 100%;
+            margin-top: 0;
+            padding: 0px !important;
+            margin-bottom: 20px;
+        }
+    }
+    .section {
+        &__block {
+            padding-left: unset;
+            padding: 0px 5%;
+        }
+        &_text {
+            max-width: unset;
+            &_1 {
+                margin-left: 0;
+                padding-left: 37px;
+            }
+        }
+    }
+}
+
+@media (max-width: 405px) {
+    .section {
+        &_paragraph {
+            padding-left: 0;
+            border-left: unset;
+
+            &:after, &:before {
+                display: none;
+            }
+        }
+        &_text {
+            &_1 {
+                padding-left: 0;
+            }
+        }
+    }
+}

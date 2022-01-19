@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="540" height="315" viewBox="0 0 540 315">
+    <defs>
+        <rect id="84ua5kk8ha" width="540" height="315" x="0" y="0" rx="5"/>
+        <path id="kcq6csywcb" d="M0 0L17 0 17 11 0 11z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-80 -78) translate(80 78)">
+                        <use fill="#F7F2F2" xlink:href="#84ua5kk8ha"/>
+                    </g>
+                    <g>
+                        <g stroke="#BBB">
+                            <path stroke-dasharray="6" d="M2 9.5L485 9.5M0 45.5L483 45.5" transform="translate(-80 -78) translate(80 78) translate(19 78) translate(33)"/>
+                            <path d="M-91 92L92 92" transform="translate(-80 -78) translate(80 78) translate(19 78) translate(33) rotate(-90 .5 92)"/>
+                            <path stroke-dasharray="6" d="M0 81.5L483 81.5M0 115.5L483 115.5M0 149.5L483 149.5" transform="translate(-80 -78) translate(80 78) translate(19 78) translate(33)"/>
+                            <path d="M0 184L488 184" transform="translate(-80 -78) translate(80 78) translate(19 78) translate(33)"/>
+                        </g>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-80 -78) translate(80 78) translate(19 78)">
+                            <tspan x="7.967" y="185">75</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-80 -78) translate(80 78) translate(19 78)">
+                            <tspan x="5.999" y="153">80</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-80 -78) translate(80 78) translate(19 78)">
+                            <tspan x="5.515" y="84">90</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-80 -78) translate(80 78) translate(19 78)">
+                            <tspan x="6.491" y="119">85</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-80 -78) translate(80 78) translate(19 78)">
+                            <tspan x="79" y="214">Повтор 1</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-80 -78) translate(80 78) translate(19 78)">
+                            <tspan x="256.825" y="214">Повтор 2</tspan>
+                        </text>
+                        <g transform="translate(-80 -78) translate(80 78) translate(19 78) translate(271 195)"/>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.011" transform="translate(-80 -78) translate(80 78) translate(19 78)">
+                            <tspan x="431.442" y="214">Середня</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-80 -78) translate(80 78) translate(19 78)">
+                            <tspan x="6.007" y="49">95</tspan>
+                        </text>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-80 -78) translate(80 78) translate(19 78)">
+                            <tspan x=".001" y="14">100</tspan>
+                        </text>
+                    </g>
+                    <g>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-80 -78) translate(80 78) translate(24 22)">
+                            <tspan x="18" y="11">ВеллВам</tspan>
+                        </text>
+                        <path fill="#819F2C" d="M5.5 2C8.536 2 11 4.464 11 7.5S8.536 13 5.5 13 0 10.536 0 7.5 2.464 2 5.5 2z" transform="translate(-80 -78) translate(80 78) translate(24 22)"/>
+                    </g>
+                    <g>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-80 -78) translate(80 78) translate(346 22)">
+                            <tspan x="18" y="11">Еталон (добрива + гуміфілд)</tspan>
+                        </text>
+                        <path fill="#B0C3D2" d="M5.5 1C8.536 1 11 3.464 11 6.5S8.536 12 5.5 12 0 9.536 0 6.5 2.464 1 5.5 1z" transform="translate(-80 -78) translate(80 78) translate(346 22)"/>
+                    </g>
+                    <g>
+                        <text fill="#8D9AA9" font-family="Rubik-Regular, Rubik" font-size="12" letter-spacing="-.126" transform="translate(-80 -78) translate(80 78) translate(150 22)">
+                            <tspan x="18" y="11">ВеллВам+ Добрива</tspan>
+                        </text>
+                        <path fill="#F79E1C" d="M5.5 1C8.536 1 11 3.464 11 6.5S8.536 12 5.5 12 0 9.536 0 6.5 2.464 1 5.5 1z" transform="translate(-80 -78) translate(80 78) translate(150 22)"/>
+                    </g>
+                </g>
+                <path fill="#819F2C" d="M82.5 111c9.665 0 17.5 7.835 17.5 17.5V262H65V128.5c0-9.665 7.835-17.5 17.5-17.5zM266.5 102c9.665 0 17.5 7.835 17.5 17.5V262h-35V119.5c0-9.665 7.835-17.5 17.5-17.5zM435.5 106c9.665 0 17.5 7.835 17.5 17.5V262h-35V123.5c0-9.665 7.835-17.5 17.5-17.5z" transform="translate(-80 -78) translate(80 78)"/>
+                <path fill="#F79E1C" d="M122.5 92c9.665 0 17.5 7.835 17.5 17.5V262h-35V109.5c0-9.665 7.835-17.5 17.5-17.5zM306.5 106c9.665 0 17.5 7.835 17.5 17.5V262h-35V123.5c0-9.665 7.835-17.5 17.5-17.5zM475.5 102c9.665 0 17.5 7.835 17.5 17.5V262h-35V119.5c0-9.665 7.835-17.5 17.5-17.5z" transform="translate(-80 -78) translate(80 78)"/>
+                <path fill="#B0C3D2" d="M162.5 149c9.665 0 17.5 7.835 17.5 17.5V262h-35v-95.5c0-9.665 7.835-17.5 17.5-17.5zM346.5 157c9.665 0 17.5 7.835 17.5 17.5V262h-35v-87.5c0-9.665 7.835-17.5 17.5-17.5zM515.5 157c9.665 0 17.5 7.835 17.5 17.5V262h-35v-87.5c0-9.665 7.835-17.5 17.5-17.5z" transform="translate(-80 -78) translate(80 78)"/>
+                <g fill="#FFF" font-family="Rubik-Medium, Rubik" font-size="10" font-weight="400" letter-spacing="-.105">
+                    <text transform="translate(-80 -78) translate(80 78) translate(72 107)">
+                        <tspan x="79.89" y="66">91,5</tspan>
+                    </text>
+                    <text transform="translate(-80 -78) translate(80 78) translate(72 107)">
+                        <tspan x="184.91" y="19">97,1</tspan>
+                    </text>
+                    <text transform="translate(-80 -78) translate(80 78) translate(72 107)">
+                        <tspan x="221.442" y="23">96,09</tspan>
+                    </text>
+                    <text transform="translate(-80 -78) translate(80 78) translate(72 107)">
+                        <tspan x="261.247" y="74">90,03</tspan>
+                    </text>
+                    <text transform="translate(-80 -78) translate(80 78) translate(72 107)">
+                        <tspan x="349.562" y="23">96,65</tspan>
+                    </text>
+                    <text transform="translate(-80 -78) translate(80 78) translate(72 107)">
+                        <tspan x="391.202" y="19">97,23</tspan>
+                    </text>
+                    <text transform="translate(-80 -78) translate(80 78) translate(72 107)">
+                        <tspan x="431.132" y="74">91,21</tspan>
+                    </text>
+                    <text transform="translate(-80 -78) translate(80 78) translate(72 107)">
+                        <tspan x=".11" y="28">96,2</tspan>
+                    </text>
+                    <text transform="translate(-80 -78) translate(80 78) translate(72 107)">
+                        <tspan x="36.682" y="9">98,38</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

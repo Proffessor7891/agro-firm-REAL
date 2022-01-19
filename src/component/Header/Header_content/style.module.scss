@@ -1,0 +1,48 @@
+.header {
+  &_logo {
+    transition: all .2s;
+      display: flex;
+  }
+  &_content {
+      position: relative;
+      transition: all .2s;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      &:after {
+        transition: all .2s;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        transform: rotate(-180deg);
+        background-image: linear-gradient(to bottom, rgba(33, 31, 28, 0) 0%, #21171600);
+    }
+      &.scroll {
+        position: fixed;
+        animation: active_bar .4s forwards;
+        .header_logo {
+          width: 110px;
+        }
+        &:after {
+          background-image: linear-gradient(to bottom, rgba(33, 31, 28, 0) 0%, #211716);
+        }
+      }
+  }
+}
+
+
+@keyframes active_bar {
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 0;
+  }
+}

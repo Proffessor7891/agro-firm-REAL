@@ -1,0 +1,25 @@
+.preferens {
+    &_option {
+        margin-bottom: 20px;
+        width: 50%;
+        padding-right: 10px;
+
+        &__block {
+            padding-top: 35px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 730px) {
+    .preferens {
+        &__block {
+            flex-direction: column;
+        }
+        &_option {
+            width: 100%;
+            padding-right: 0;
+        }
+    }
+}

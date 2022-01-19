@@ -1,0 +1,68 @@
+.custom {
+    &_option {
+        display: flex;
+
+        &_dot {
+            justify-content: center;
+            width: 12px;
+            margin-right: 12px;
+
+            &.center {
+                display: flex;
+            }
+        }
+        &_text {
+            width: calc(100% - 24px);
+        }
+    }
+}
+
+.number {
+    &_option {
+        position: relative;
+        .custom_option {
+            &_text {
+                width: calc(100% - 36px);
+            }
+            &_dot {
+                width: 22px;
+                height: 22px;
+                position: relative;
+                top: 3px;
+                display: block;
+                border-radius: 50%;
+                background: #819f2c;
+            }
+        }
+    }
+}
+
+.dot {
+    &_green {
+        position: relative;
+        top: 8px;
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #819f2c;
+    }
+    &_orange {
+        position: relative;
+        top: 10px;
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #f79e1c;
+    }
+    &_number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+        font-weight: 700;
+        color: #fff;
+    }
+}

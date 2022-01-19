@@ -1,0 +1,38 @@
+.section {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background-image: radial-gradient(circle at 50% 50%, #2f2f2f, #232323 122%);
+
+    &_title {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+   
+}
+
+.select {
+    &__block {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px -12px;
+    }
+    &_profile {
+        width: calc(50% - 24px);
+        margin: 12px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .select {
+        &_profile {
+            width: 100%;
+            margin: 10px 0px;
+        }
+        &__block {
+            margin: 0;
+        }
+    }
+}
